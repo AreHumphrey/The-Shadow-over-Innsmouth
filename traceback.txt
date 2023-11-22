@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 16, in script
+    nvtext "Зимой 1927/28 года агенты федерального правительства произвели секретное расследование в старинном портовом городке Инсмут, штат Массачусетс."
+Exception: Sayer 'nvtext' is not defined.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 16, in script
+    nvtext "Зимой 1927/28 года агенты федерального правительства произвели секретное расследование в старинном портовом городке Инсмут, штат Массачусетс."
+  File "D:\renpy-8.1.3-sdk\renpy\ast.py", line 890, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "D:\renpy-8.1.3-sdk\renpy\ast.py", line 783, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'nvtext' is not defined.
+
+Windows-10-10.0.22621 AMD64
+Ren'Py 8.1.3.23091805
+TheShadowoverInnsmouth 1.0
+Tue Nov 21 23:20:49 2023
