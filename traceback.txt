@@ -1,22 +1,32 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 455, in script
-    jump whiskey
-ScriptError: could not find label 'whiskey'.
+  File "game/script.rpy", line 396, in script
+    show insm_10 at insm_10.xalign(0.0, 0.5)
+  File "game/script.rpy", line 396, in <module>
+    show insm_10 at insm_10.xalign(0.0, 0.5)
+NameError: name 'insm_10' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 455, in script
-    jump whiskey
-  File "D:\renpy-8.1.3-sdk\renpy\ast.py", line 1992, in execute
-    rv = renpy.game.script.lookup(target)
-  File "D:\renpy-8.1.3-sdk\renpy\script.py", line 1013, in lookup
-    raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'whiskey'.
+  File "game/script.rpy", line 396, in script
+    show insm_10 at insm_10.xalign(0.0, 0.5)
+  File "D:\renpy-8.1.3-sdk\renpy\ast.py", line 1428, in execute
+    show_imspec(self.imspec, atl=getattr(self, "atl", None))
+  File "D:\renpy-8.1.3-sdk\renpy\ast.py", line 1387, in show_imspec
+    at_list = [ renpy.python.py_eval(i) for i in at_list ]
+  File "D:\renpy-8.1.3-sdk\renpy\ast.py", line 1387, in <listcomp>
+    at_list = [ renpy.python.py_eval(i) for i in at_list ]
+  File "D:\renpy-8.1.3-sdk\renpy\python.py", line 1153, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "D:\renpy-8.1.3-sdk\renpy\python.py", line 1146, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 396, in <module>
+    show insm_10 at insm_10.xalign(0.0, 0.5)
+NameError: name 'insm_10' is not defined
 
 Windows-10-10.0.22621 AMD64
 Ren'Py 8.1.3.23091805
 TheShadowoverInnsmouth 1.0
-Mon Nov 27 00:55:21 2023
+Thu Nov 30 03:03:38 2023
