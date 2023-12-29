@@ -250,13 +250,7 @@ screen quick_menu():
             yalign 1.0
 
             textbutton _("Назад") action Rollback()
-            textbutton _("История") action ShowMenu('history')
-            textbutton _("Пропуск") action Skip() alternate Skip(fast=True, confirm=True)
-            textbutton _("Авто") action Preference("auto-forward", "toggle")
             textbutton _("Сохранить") action ShowMenu('save')
-            textbutton _("Б.Сохр") action QuickSave()
-            textbutton _("Б.Загр") action QuickLoad()
-            textbutton _("Опции") action ShowMenu('preferences')
 
 
 ## Данный код гарантирует, что экран быстрого меню будет показан в игре в любое
@@ -349,31 +343,19 @@ style navigation_button_text:
 ## https://www.renpy.org/doc/html/screen_special.html#main-menu
 
 screen main_menu():
-
     ## Этот тег гарантирует, что любой другой экран с тем же тегом будет
     ## заменять этот.
     tag menu
 
-    add gui.main_menu_background
+    add "menu_bg.png"
 
-    ## Эта пустая рамка затеняет главное меню.
     frame:
         style "main_menu_frame"
 
-    ## Оператор use включает отображение другого экрана в данном. Актуальное
-    ## содержание главного меню находится на экране навигации.
     use navigation
 
-    if gui.show_name:
 
-        vbox:
-            style "main_menu_vbox"
 
-            text "[config.name!t]":
-                style "main_menu_title"
-
-            text "[config.version]":
-                style "main_menu_version"
 
 
 style main_menu_frame is empty
@@ -637,7 +619,7 @@ screen file_slots(title):
 
                         add FileScreenshot(slot) xalign 0.5
 
-                        text FileTime(slot, format=_("{#file_time}%A, %d %B %Y, %H:%M"), empty=_("Пустой слот")):
+                        text FileTime(slot, format=_("{#file_time}%A, %d %B %Y,"), empty=_("Пустой слот")):
                             style "slot_time_text"
 
                         text FileSaveName(slot):
@@ -1167,7 +1149,6 @@ screen confirm(message, yes_action, no_action):
                 textbutton _("Да") action yes_action
                 textbutton _("Нет") action no_action
 
-    ## Правый клик и esc, как ответ "Нет".
     key "game_menu" action no_action
 
 
@@ -1521,7 +1502,6 @@ screen quick_menu():
 
             textbutton _("Назад") action Rollback()
             textbutton _("Пропуск") action Skip() alternate Skip(fast=True, confirm=True)
-            textbutton _("Авто") action Preference("auto-forward", "toggle")
             textbutton _("Меню") action ShowMenu()
 
 
