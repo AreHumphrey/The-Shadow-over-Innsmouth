@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 297: keyword argument 'spacing' appears more than once in a vbox statement.
-    spacing gui.navigation_spacing
-           ^
+File "game/script.rpy", line 8: expected end of line
+    voice "audio/voices/main/main.mp3" volume 0.5
+                                       ^
 
 Ren'Py Version: Ren'Py 8.1.3.23091805
-Fri Dec 29 23:24:23 2023
+Sun Feb 11 20:44:30 2024
