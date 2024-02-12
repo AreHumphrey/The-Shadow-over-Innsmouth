@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 8: expected end of line
-    voice "audio/voices/main/main.mp3" volume 0.5
-                                       ^
+File "game/screens.rpy", line 284: 'play' is not a keyword argument or valid child of the screen statement.
+    play music "audio/spooky_music_bg.mp3" volume 0.1
+        ^
 
 Ren'Py Version: Ren'Py 8.1.3.23091805
-Sun Feb 11 20:44:30 2024
+Mon Feb 12 22:28:21 2024

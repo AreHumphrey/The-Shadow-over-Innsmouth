@@ -103,7 +103,7 @@
 
 
 label chapter_1:
-
+    play music "audio/chapter_1.mp3" volume 0.1
     define n = Character(None, kind=nvl, window_left_padding=-100, window_yoffset=40)
 
     scene bg3
