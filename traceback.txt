@@ -1,25 +1,23 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 184, in script
-    n '{i}и вполне достойным внимания туриста. Если он расположен по пути в Аркхем, я должен его посетить{/i}'
-  File "renpy/common/00nvl_mode.rpy", line 381, in do_display
-    renpy.display_say(
-OSError: Couldn't find file 'audio/voices/main/main50.mp3'.
+  File "game/script.rpy", line 302, in script
+    "{i}Вообще, странно, рыбы там всегда навалом, хотя ни у нас, ни в других местах поблизости ее не видать, – но только попробуйте порыбачить там и сами увидите, как эти людишки погонят вас оттуда.{/i}"
+OSError: Couldn't find file 'audio/SFX/animals.mp3'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 184, in script
-    n '{i}и вполне достойным внимания туриста. Если он расположен по пути в Аркхем, я должен его посетить{/i}'
+  File "game/script.rpy", line 302, in script
+    "{i}Вообще, странно, рыбы там всегда навалом, хотя ни у нас, ни в других местах поблизости ее не видать, – но только попробуйте порыбачить там и сами увидите, как эти людишки погонят вас оттуда.{/i}"
   File "C:\wamp64\www\renpy-8.1.3-sdk\renpy\ast.py", line 930, in execute
     renpy.exports.say(who, what, *args, **kwargs)
   File "C:\wamp64\www\renpy-8.1.3-sdk\renpy\exports.py", line 1474, in say
     who(what, *args, **kwargs)
   File "C:\wamp64\www\renpy-8.1.3-sdk\renpy\character.py", line 1352, in __call__
     self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
-  File "renpy/common/00nvl_mode.rpy", line 381, in do_display
-    renpy.display_say(
+  File "C:\wamp64\www\renpy-8.1.3-sdk\renpy\character.py", line 1003, in do_display
+    display_say(who,
   File "C:\wamp64\www\renpy-8.1.3-sdk\renpy\character.py", line 693, in display_say
     rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
   File "C:\wamp64\www\renpy-8.1.3-sdk\renpy\ui.py", line 299, in interact
@@ -41,9 +39,9 @@ Full traceback:
     rv = renpy.loader.load(fn, directory="audio")
   File "C:\wamp64\www\renpy-8.1.3-sdk\renpy\loader.py", line 833, in load
     raise IOError("Couldn't find file '%s'." % name)
-OSError: Couldn't find file 'audio/voices/main/main50.mp3'.
+OSError: Couldn't find file 'audio/SFX/animals.mp3'.
 
 Windows-10-10.0.19045 AMD64
 Ren'Py 8.1.3.23091805
 TheShadowoverInnsmouth 1.0
-Tue Feb 13 21:46:02 2024
+Thu Feb 15 17:03:14 2024

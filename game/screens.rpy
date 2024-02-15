@@ -4,10 +4,10 @@
 
 init offset = -1
 
-play music "audio/spooky_music_bg.mp3" volume 0.1
 ################################################################################
 ## Стили
 ################################################################################
+
 
 style default:
     properties gui.text_properties()
@@ -290,7 +290,7 @@ screen navigation():
         yalign 0.5
 
         spacing gui.navigation_spacing
-
+        
         if main_menu:
 
             textbutton _("Начать") action Start()
@@ -343,6 +343,8 @@ style navigation_button_text:
 ## Используется, чтобы показать главное меню после запуска игры.
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#main-menu
+
+
 
 screen main_menu():
     ## Этот тег гарантирует, что любой другой экран с тем же тегом будет

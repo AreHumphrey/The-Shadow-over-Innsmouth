@@ -1,40 +1,40 @@
-Tue Feb 13 22:19:52 2024
+Thu Feb 15 16:54:28 2024
 Windows-10-10.0.19045
 Ren'Py 8.1.3.23091805
  
 
-Bootstrap to the start of init.init. took 0.10s
+Bootstrap to the start of init.init. took 0.12s
 Early init. took 0.01s
-Loader init. took 0.11s
-Loading error handling. took 0.08s
-Loading script. took 0.74s
-Loading save slot metadata. took 0.11s
+Loader init. took 0.12s
+Loading error handling. took 0.09s
+Loading script. took 0.81s
+Loading save slot metadata. took 0.13s
 Loading persistent. took 0.00s
-Running init code. took 0.20s
-Loading analysis data. took 0.03s
-Analyze and compile ATL. took 0.01s
-Reloading save slot metadata. took 0.08s
+Running init code. took 0.25s
+Loading analysis data. took 0.05s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.09s
 Index archives took 0.00s
-Dump and make backups. took 0.16s
+Dump and make backups. took 0.17s
 Cleaning cache. took 0.00s
 Making clean stores. took 0.00s
-Initial gc. took 0.12s
+Initial gc. took 0.18s
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
 Creating interface object. took 0.01s
 Cleaning stores took 0.00s
-Init translation took 0.25s
-Build styles took 0.06s
-Load screen analysis took 0.15s
+Init translation took 0.32s
+Build styles took 0.02s
+Load screen analysis took 0.13s
 Analyze screens took 0.00s
 Save screen analysis took 0.00s
-Prepare screens took 0.35s
+Prepare screens took 0.44s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.10s
 Running _start took 0.00s
 Performance test:
-Interface start. took 0.40s
+Interface start. took 0.43s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1366, 768)
@@ -45,4 +45,632 @@ Renderer: b'AMD Radeon(TM) R5 Graphics'
 Version: b'4.6.13596 Compatibility Profile Context 20.10.44 27.20.11044.7'
 Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(1184, 666) drawable=(1184, 666)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 224.99s
+Early init. took 0.00s
+Loader init. took 0.11s
+Loading error handling. took 0.07s
+Loading script. took 0.85s
+Loading save slot metadata. took 0.09s
+Loading persistent. took 0.00s
+Running init code. took 0.13s
+Loading analysis data. took 0.05s
+Analyze and compile ATL. took 0.01s
+Reloading save slot metadata. took 0.08s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\achil\\AppData\\Roaming/RenPy/backups\\The-Shadow-over-Innsmouth':
+Dump and make backups. took 0.15s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.14s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.16s
+Build styles took 0.03s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.07s
+Prepare screens took 0.25s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.04s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.18s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon(TM) R5 Graphics'
+Version: b'4.6.13596 Compatibility Profile Context 20.10.44 27.20.11044.7'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1184, 666) drawable=(1184, 666)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 283.78s
+Early init. took 0.01s
+Loader init. took 0.30s
+Loading error handling. took 0.07s
+Loading script. took 0.95s
+Loading save slot metadata. took 0.11s
+Loading persistent. took 0.00s
+Running init code. took 0.15s
+Loading analysis data. took 0.05s
+Analyze and compile ATL. took 0.01s
+Reloading save slot metadata. took 0.08s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\achil\\AppData\\Roaming/RenPy/backups\\The-Shadow-over-Innsmouth':
+Dump and make backups. took 0.18s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.22s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.16s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.06s
+Save screen analysis took 0.07s
+Prepare screens took 0.27s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.04s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.20s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon(TM) R5 Graphics'
+Version: b'4.6.13596 Compatibility Profile Context 20.10.44 27.20.11044.7'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1184, 666) drawable=(1184, 666)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 369.05s
+Early init. took 0.00s
+Loader init. took 0.11s
+Loading error handling. took 0.06s
+Loading script. took 1.16s
+Loading save slot metadata. took 0.20s
+Loading persistent. took 0.00s
+ - Init at game/gui.rpy:11 took 0.25907 s.
+Running init code. took 0.69s
+Loading analysis data. took 0.08s
+Analyze and compile ATL. took 0.10s
+Reloading save slot metadata. took 0.25s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\achil\\AppData\\Roaming/RenPy/backups\\The-Shadow-over-Innsmouth':
+Dump and make backups. took 0.47s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.90s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.73s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.43s
+Save screen analysis took 0.82s
+Prepare screens took 0.55s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.06s
+Running _start took 0.01s
+Performance test:
+Interface start. took 0.43s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon(TM) R5 Graphics'
+Version: b'4.6.13596 Compatibility Profile Context 20.10.44 27.20.11044.7'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1184, 666) drawable=(1184, 666)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 377.75s
+Early init. took 0.00s
+Loader init. took 0.18s
+Loading error handling. took 0.16s
+Loading script. took 1.46s
+Loading save slot metadata. took 0.11s
+Loading persistent. took 0.00s
+Running init code. took 0.11s
+Loading analysis data. took 0.04s
+Analyze and compile ATL. took 0.01s
+Reloading save slot metadata. took 0.09s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\achil\\AppData\\Roaming/RenPy/backups\\The-Shadow-over-Innsmouth':
+Dump and make backups. took 0.15s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.14s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.14s
+Build styles took 0.02s
+Load screen analysis took 0.02s
+Analyze screens took 0.03s
+Save screen analysis took 0.06s
+Prepare screens took 0.29s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.05s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.13s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon(TM) R5 Graphics'
+Version: b'4.6.13596 Compatibility Profile Context 20.10.44 27.20.11044.7'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1184, 666) drawable=(1184, 666)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 444.57s
+Early init. took 0.00s
+Loader init. took 0.37s
+Loading error handling. took 0.16s
+Loading script. took 1.62s
+Loading save slot metadata. took 0.13s
+Loading persistent. took 0.00s
+Running init code. took 0.14s
+Loading analysis data. took 0.06s
+Analyze and compile ATL. took 0.01s
+Reloading save slot metadata. took 0.11s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\achil\\AppData\\Roaming/RenPy/backups\\The-Shadow-over-Innsmouth':
+Dump and make backups. took 0.21s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.28s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.18s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.08s
+Prepare screens took 0.27s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.06s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.19s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon(TM) R5 Graphics'
+Version: b'4.6.13596 Compatibility Profile Context 20.10.44 27.20.11044.7'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1184, 666) drawable=(1184, 666)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 521.47s
+Early init. took 0.00s
+Loader init. took 0.19s
+Loading error handling. took 0.11s
+Loading script. took 1.50s
+Loading save slot metadata. took 0.11s
+Loading persistent. took 0.00s
+Running init code. took 0.16s
+Loading analysis data. took 0.06s
+Analyze and compile ATL. took 0.01s
+Reloading save slot metadata. took 0.08s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\achil\\AppData\\Roaming/RenPy/backups\\The-Shadow-over-Innsmouth':
+Dump and make backups. took 0.27s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.46s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.46s
+Build styles took 0.02s
+Load screen analysis took 0.00s
+Analyze screens took 0.05s
+Save screen analysis took 0.08s
+Prepare screens took 0.28s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.04s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.20s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon(TM) R5 Graphics'
+Version: b'4.6.13596 Compatibility Profile Context 20.10.44 27.20.11044.7'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1184, 666) drawable=(1184, 666)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 302, in script
+    "{i}Вообще, странно, рыбы там всегда навалом, хотя ни у нас, ни в других местах поблизости ее не видать, – но только попробуйте порыбачить там и сами увидите, как эти людишки погонят вас оттуда.{/i}"
+  File "C:\wamp64\www\renpy-8.1.3-sdk\renpy\ast.py", line 930, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "C:\wamp64\www\renpy-8.1.3-sdk\renpy\exports.py", line 1474, in say
+    who(what, *args, **kwargs)
+  File "C:\wamp64\www\renpy-8.1.3-sdk\renpy\character.py", line 1352, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "C:\wamp64\www\renpy-8.1.3-sdk\renpy\character.py", line 1003, in do_display
+    display_say(who,
+  File "C:\wamp64\www\renpy-8.1.3-sdk\renpy\character.py", line 693, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "C:\wamp64\www\renpy-8.1.3-sdk\renpy\ui.py", line 299, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "C:\wamp64\www\renpy-8.1.3-sdk\renpy\display\core.py", line 3582, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "C:\wamp64\www\renpy-8.1.3-sdk\renpy\display\core.py", line 4379, in interact_core
+    renpy.audio.audio.periodic()
+  File "C:\wamp64\www\renpy-8.1.3-sdk\renpy\audio\audio.py", line 1224, in periodic
+    raise_(exc[0], exc[1], exc[2])
+  File "/home/tom/ab/renpy-build-fix/tmp/install.linux-x86_64/lib/python3.9/site-packages/future/utils/__init__.py", line 444, in raise_
+  File "C:\wamp64\www\renpy-8.1.3-sdk\renpy\audio\audio.py", line 1202, in periodic_thread_main
+    periodic_pass()
+  File "C:\wamp64\www\renpy-8.1.3-sdk\renpy\audio\audio.py", line 1144, in periodic_pass
+    c.periodic()
+  File "C:\wamp64\www\renpy-8.1.3-sdk\renpy\audio\audio.py", line 534, in periodic
+    topf = load(filename)
+  File "C:\wamp64\www\renpy-8.1.3-sdk\renpy\audio\audio.py", line 72, in load
+    rv = renpy.loader.load(fn, directory="audio")
+  File "C:\wamp64\www\renpy-8.1.3-sdk\renpy\loader.py", line 833, in load
+    raise IOError("Couldn't find file '%s'." % name)
+OSError: Couldn't find file 'audio/SFX/animals.mp3'.
+
+While running game code:
+  File "game/script.rpy", line 302, in script
+    "{i}Вообще, странно, рыбы там всегда навалом, хотя ни у нас, ни в других местах поблизости ее не видать, – но только попробуйте порыбачить там и сами увидите, как эти людишки погонят вас оттуда.{/i}"
+OSError: Couldn't find file 'audio/SFX/animals.mp3'.
+Resetting cache.
+Bootstrap to the start of init.init. took 535.71s
+Early init. took 0.00s
+Loader init. took 0.18s
+Loading error handling. took 0.06s
+Loading script. took 0.81s
+Loading save slot metadata. took 0.10s
+Loading persistent. took 0.00s
+Running init code. took 0.13s
+Loading analysis data. took 0.06s
+Analyze and compile ATL. took 0.01s
+Reloading save slot metadata. took 0.11s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\achil\\AppData\\Roaming/RenPy/backups\\The-Shadow-over-Innsmouth':
+Dump and make backups. took 0.20s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.31s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.19s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.08s
+Prepare screens took 0.33s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.08s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.20s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon(TM) R5 Graphics'
+Version: b'4.6.13596 Compatibility Profile Context 20.10.44 27.20.11044.7'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1184, 666) drawable=(1184, 666)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 564.14s
+Early init. took 0.00s
+Loader init. took 0.19s
+Loading error handling. took 0.07s
+Loading script. took 1.28s
+Loading save slot metadata. took 0.11s
+Loading persistent. took 0.00s
+Running init code. took 0.19s
+Loading analysis data. took 0.06s
+Analyze and compile ATL. took 0.01s
+Reloading save slot metadata. took 0.10s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\achil\\AppData\\Roaming/RenPy/backups\\The-Shadow-over-Innsmouth':
+Dump and make backups. took 0.28s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.31s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.31s
+Build styles took 0.03s
+Load screen analysis took 0.00s
+Analyze screens took 0.13s
+Save screen analysis took 0.33s
+Prepare screens took 0.43s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.04s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.19s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon(TM) R5 Graphics'
+Version: b'4.6.13596 Compatibility Profile Context 20.10.44 27.20.11044.7'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1184, 666) drawable=(1184, 666)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 569.37s
+Early init. took 0.00s
+Loader init. took 0.14s
+Loading error handling. took 1.78s
+Loading script. took 0.55s
+Loading save slot metadata. took 0.10s
+Loading persistent. took 0.00s
+Running init code. took 0.14s
+Loading analysis data. took 0.08s
+Analyze and compile ATL. took 0.01s
+Reloading save slot metadata. took 0.13s
+Index archives took 0.00s
+Dump and make backups. took 0.18s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.19s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.19s
+Build styles took 0.01s
+Load screen analysis took 0.12s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.30s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.01s
+Performance test:
+Interface start. took 0.22s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon(TM) R5 Graphics'
+Version: b'4.6.13596 Compatibility Profile Context 20.10.44 27.20.11044.7'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1184, 666) drawable=(1184, 666)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 596.97s
+Early init. took 0.00s
+Loader init. took 0.23s
+Loading error handling. took 0.10s
+Loading script. took 1.70s
+Loading save slot metadata. took 0.11s
+Loading persistent. took 0.00s
+Running init code. took 0.17s
+Loading analysis data. took 0.06s
+Analyze and compile ATL. took 0.01s
+Reloading save slot metadata. took 0.12s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\achil\\AppData\\Roaming/RenPy/backups\\The-Shadow-over-Innsmouth':
+Dump and make backups. took 0.26s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.19s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.19s
+Build styles took 0.02s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.08s
+Prepare screens took 0.44s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.05s
+Running _start took 0.01s
+Performance test:
+Interface start. took 0.62s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon(TM) R5 Graphics'
+Version: b'4.6.13596 Compatibility Profile Context 20.10.44 27.20.11044.7'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1184, 666) drawable=(1184, 666)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 651.34s
+Early init. took 0.01s
+Loader init. took 0.24s
+Loading error handling. took 0.08s
+Loading script. took 0.86s
+Loading save slot metadata. took 0.24s
+Loading persistent. took 0.01s
+Running init code. took 0.22s
+Loading analysis data. took 0.21s
+Analyze and compile ATL. took 0.01s
+Reloading save slot metadata. took 0.14s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\achil\\AppData\\Roaming/RenPy/backups\\The-Shadow-over-Innsmouth':
+Dump and make backups. took 0.84s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.52s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.44s
+Build styles took 0.05s
+Load screen analysis took 0.00s
+Analyze screens took 0.07s
+Save screen analysis took 0.08s
+Prepare screens took 0.40s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.06s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.82s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon(TM) R5 Graphics'
+Version: b'4.6.13596 Compatibility Profile Context 20.10.44 27.20.11044.7'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1184, 666) drawable=(1184, 666)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 658.37s
+Early init. took 0.01s
+Loader init. took 1.14s
+Loading error handling. took 0.33s
+Loading script. took 2.96s
+Loading save slot metadata. took 0.49s
+Loading persistent. took 0.01s
+Running init code. took 0.37s
+Loading analysis data. took 0.45s
+Analyze and compile ATL. took 0.10s
+Reloading save slot metadata. took 0.35s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\achil\\AppData\\Roaming/RenPy/backups\\The-Shadow-over-Innsmouth':
+Dump and make backups. took 0.49s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.34s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.23s
+Build styles took 0.01s
+Load screen analysis took 0.03s
+Analyze screens took 0.09s
+Save screen analysis took 0.10s
+Prepare screens took 0.26s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.05s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.20s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon(TM) R5 Graphics'
+Version: b'4.6.13596 Compatibility Profile Context 20.10.44 27.20.11044.7'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1184, 666) drawable=(1184, 666)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 685.35s
+Early init. took 0.00s
+Loader init. took 0.15s
+Loading error handling. took 0.06s
+Loading script. took 0.84s
+Loading save slot metadata. took 0.09s
+Loading persistent. took 0.00s
+Running init code. took 0.10s
+Loading analysis data. took 0.05s
+Analyze and compile ATL. took 0.01s
+Reloading save slot metadata. took 0.08s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\achil\\AppData\\Roaming/RenPy/backups\\The-Shadow-over-Innsmouth':
+Dump and make backups. took 0.15s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.14s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.18s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.06s
+Save screen analysis took 0.11s
+Prepare screens took 0.27s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.04s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.28s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon(TM) R5 Graphics'
+Version: b'4.6.13596 Compatibility Profile Context 20.10.44 27.20.11044.7'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1184, 666) drawable=(1184, 666)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1184, 654) drawable=(1184, 654)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1184, 682) drawable=(1184, 682)
 Maximum texture size: 4096x4096
